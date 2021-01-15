@@ -1,0 +1,51 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Roboto"
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap');
+
+.container{
+    width: 80%;
+    margin: 0 auto;
+    padding: 10px 5px;
+}
+.btn-add{
+    background-color:  rgb(253, 198, 208);
+    border:none;
+    border-radius: 4px;
+    font-size: 14px;
+    font-weight: 500;
+    padding: 8px;
+    cursor: pointer;
+
+    &:hover{
+        background-color: rgb(253, 216, 223);
+        transition: all .76s;
+    }
+    &:active{
+        background-color: rgb(248, 170, 184);
+        
+    }
+    &:focus{
+        
+    }
+}
+.input-tables{
+    text-align: center;
+}
+input{
+    height: 30px;
+
+    margin-right: 5;
+}
+
+.table1{
+    margin-bottom: 10px;
+}
+
+.table1, .table2{
+    margin-top: 13px;
+    margin-left: 30%;
+}
